@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<config>
+  <network>
+    <bootproto>static</bootproto>
+    <dns1>8.8.8.8</dns1>
+    <dns2>8.8.4.4</dns2>
+    <domain></domain>
+    <gateway>10.10.0.1</gateway>
+    <ipaddr>10.10.2.11</ipaddr>
+    <ipv6>
+      <method>disabled</method>
+    </ipv6>
+    <netmask>255.255.252.0</netmask>
+    <ntp>pool.ntp.org</ntp>
+    <timezone>EST5EDT,M3.2.0/02:00:00,M11.1.0/02:00:00</timezone>
+  </network>
+  <provisioning>
+    <config>
+      <check>true</check>
+    </config>
+  </provisioning>
+</config>
